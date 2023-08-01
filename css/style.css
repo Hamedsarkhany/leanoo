@@ -1,3 +1,4 @@
+@charset "UTF-8";
 a {
   cursor: pointer;
   font-family: "B_Koodak_Bold";
@@ -55,6 +56,13 @@ body.Percentages main .Smart-and-knowledgeable .Smart-and .left-performance .box
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .left-performance .box-guidance p:nth-child(4) svg, body.Percentages main .Smart-and-knowledgeable .Smart-and .left-performance .box-guidance p:nth-child(3) svg, body.Percentages main .Smart-and-knowledgeable .Smart-and .left-performance .box-guidance p:nth-child(2) svg, body.Percentages main .Smart-and-knowledgeable .Smart-and .left-performance .box-guidance p:nth-child(1) svg {
   margin-left: 10px;
+}
+
+body.account main .info_account .colume_3 .box_5, body.account main .info_account .colume_3 .box_4, body.account main .info_account .colume_2 .box_3, body.account main .info_account .colume_2 .box_2, body.account main .info_account .box_1 {
+  width: 85%;
+  border-radius: 40px;
+  background: linear-gradient(180deg, rgba(178, 204, 168, 0.15) 0%, rgba(72, 160, 41, 0.15) 0.01%, rgba(60, 173, 221, 0.14) 100%);
+  min-width: 270px;
 }
 
 * {
@@ -1434,6 +1442,28 @@ body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .mo
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-content {
   background: #F8FFFC;
+  border-radius: 20px;
+  border: none;
+}
+body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-header {
+  flex-direction: column;
+  background: #4B4B50;
+  border-radius: 20px 20px 0 0;
+}
+body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-header .modal-title {
+  color: #0CFF6D;
+  text-align: center;
+  font-size: 23px;
+  line-height: normal;
+}
+body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-header .header-prec-title {
+  margin-top: 5px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-header .header-prec-title .heder-prec-item {
+  color: white;
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body {
   margin: 15px;
@@ -1456,19 +1486,7 @@ body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .mo
   border-left: 1px solid rgba(175, 227, 196, 0.48);
   background: #E4ECE4;
   margin-left: 0px;
-  width: 23%;
-}
-@media (min-width: 1350px) and (max-width: 1740px) {
-  body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table .head-table div.button {
-    width: 17.5%;
-  }
-}
-@media (max-width: 1349px) {
-  body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table .head-table div.button {
-    width: 19%;
-    margin-right: 17px;
-    margin-left: 42px;
-  }
+  width: 17.5%;
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table .head-table div.buttonnn {
   width: 30%;
@@ -1485,7 +1503,7 @@ body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .mo
   text-align: center;
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table table thead tr {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 0px 20px 0px 0px;
   border-bottom: 1.8px solid #E5F6EB;
   background: #ffffff;
   align-items: center;
@@ -1496,42 +1514,20 @@ body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .mo
   font-size: 18px;
   padding-left: 5px;
   padding-bottom: 5px;
-  background-color: #fff;
-}
-body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table table thead tr th:first-of-type {
-  color: #000;
-  font-family: "B_Koodak_Bold";
+  border: none;
   font-size: 16px;
-  padding-bottom: 5px;
-  width: 10%;
   padding-top: 10px;
+  width: 10%;
   background-color: #fff;
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table table thead tr th:first-of-type svg {
   margin-right: 5px;
 }
-body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table table thead tr th:nth-child(2) {
-  color: #000;
-  font-family: "B_Koodak_Bold";
-  font-size: 16px;
-  padding-left: 5px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  width: 10%;
-}
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table table thead tr th:nth-child(3) {
-  color: #000;
-  font-family: "B_Koodak_Bold";
-  font-size: 16px;
-  padding-left: 5px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  width: 10%;
   margin-left: 10px;
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table table thead tr th.thh {
   width: 6%;
-  color: #000;
   font-family: "B_Koodak_Bold";
   font-size: 15px;
   border-right: solid 2px #F3FFF9;
@@ -1557,7 +1553,7 @@ body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .mo
   font-family: "B_Koodak_Bold";
   font-size: 16px;
   padding-bottom: 8px;
-  width: 10%;
+  width: 10.1%;
   padding-top: 10px;
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table table tbody tr td:nth-child(2) {
@@ -1565,22 +1561,22 @@ body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .mo
   font-family: "B_Koodak_Bold";
   font-size: 16px;
   padding: 10px 0px 8px 5px;
-  width: 10%;
+  width: 10.1%;
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table table tbody tr td:nth-child(3) {
   color: #000;
   font-family: "B_Koodak_Bold";
   font-size: 16px;
   padding: 10px 0px 8px 5px;
-  width: 10%;
+  width: 10.1%;
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table table tbody tr td.tdd-green {
-  padding: 8px 5px 8px 5px;
-  width: 6%;
+  padding: 8px 5px 9px 5px;
+  width: 5.9%;
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .right-performance .modal-body .pop-table table tbody tr td.tdd-red {
-  padding: 8px 5px 8px 5px;
-  width: 6%;
+  padding: 8px 5px 9px 5px;
+  width: 5.9%;
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .left-performance .box-guidance {
   align-items: flex-start;
@@ -1621,6 +1617,576 @@ body.Percentages main .Smart-and-knowledgeable .Smart-and .left-performance .box
 }
 body.Percentages main .Smart-and-knowledgeable .Smart-and .left-performance .box-guidance p:nth-child(4) svg {
   margin: 0 5px;
+}
+
+body.login {
+  background-color: rgb(240, 255, 237);
+}
+body.login ::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+body.login :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(255, 255, 255);
+}
+body.login ::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(255, 255, 255);
+}
+body.login .box_login {
+  margin: 6% auto;
+  width: 500px;
+  height: 520px;
+  border-radius: 30px;
+  border: 3px solid #FFF;
+  background: linear-gradient(139deg, rgb(134, 165, 123) -10%, rgba(108, 152, 144, 0.46) 34.9%, rgba(62, 106, 124, 0.55) 67.19%, rgba(20, 27, 18, 0.7) 100%);
+}
+body.login .box_login .svg_1 {
+  position: relative;
+  right: 38%;
+  top: -57px;
+}
+body.login .svg_2 {
+  position: relative;
+  z-index: 1;
+  right: 17.2%;
+  top: -60px;
+}
+
+.form_login form {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.form_login form label:nth-child(1) {
+  background: rgba(217, 217, 217, 0.47);
+  border-radius: 0px 20px 20px 0px;
+  width: 60px;
+  height: 60px;
+  padding: 15px 16px;
+}
+.form_login form input[type=tel] {
+  font-family: "B_Koodak_Bold";
+  color: #FFF;
+  font-size: 18px;
+  margin-bottom: 36px;
+  padding: 16.5px 12px;
+  width: 82%;
+  border: none;
+  border-radius: 20px 0px 0px 20px;
+  background: rgba(255, 255, 255, 0.28);
+}
+.form_login form input[type=password] {
+  font-family: "B_Koodak_Bold";
+  color: #FFF;
+  font-size: 18px;
+  padding: 16px 12px;
+  width: 82%;
+  border: none;
+  border-radius: 20px 0px 0px 20px;
+  background: rgba(255, 255, 255, 0.28);
+}
+.form_login form input[type=button] {
+  margin-bottom: 36px;
+  padding: 5px 0px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.82);
+  color: #21301F;
+  font-family: "B_Koodak_Bold";
+  border: none;
+  font-size: 32px;
+  width: 100%;
+  transition: all 0.3s ease-out;
+}
+.form_login form input[type=button]:hover {
+  transition: all 0.3s ease-out;
+  background: rgba(255, 255, 255, 0.3);
+}
+.form_login form label:nth-child(4) {
+  background: rgba(217, 217, 217, 0.47);
+  border-radius: 0px 20px 20px 0px;
+  width: 60px;
+  height: 60px;
+  padding: 9px 13px;
+}
+.form_login form p {
+  margin: 11px auto 40px auto;
+}
+.form_login form p a {
+  font-size: 16px;
+  color: var(--1, #E0EEFF);
+}
+
+body.account div.row-header {
+  display: flex;
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  margin: 0px auto 10px auto;
+  align-items: center;
+  position: fixed;
+  left: 3px;
+  padding-top: 15px;
+  z-index: 4;
+}
+body.account div.row-header .calendar-header {
+  height: 65px;
+}
+body.account div.row-header .calender-item {
+  position: relative;
+  top: 13px;
+  left: 78px;
+}
+body.account div.row-header .calender-item-1 {
+  display: inline;
+  position: relative;
+  top: -18px;
+  font-size: 10px;
+  right: -85px;
+}
+body.account div.row-header .calender-item-2 {
+  display: inline;
+  position: relative;
+  top: 12px;
+  font-size: 14px;
+  right: -106px;
+}
+body.account div.row-header .calender-item-3 {
+  display: inline;
+  position: relative;
+  top: -48px;
+  font-size: 15px;
+  right: 12px;
+}
+body.account div.row-header .name-website {
+  color: #4B4B50;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body.account div.row-header .name-website h1 {
+  font-family: unset !important;
+}
+body.account div.row-header .timer {
+  text-align: left;
+}
+body.account div.row-header .timer-item {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  font-size: 20px;
+  right: -60px;
+}
+body.account main aside {
+  margin-right: -13px;
+}
+body.account main aside div.aside-nav-bar {
+  width: 85px;
+  height: 611px;
+  margin-top: 82px;
+  border-radius: 120px 0px 0px 120px;
+  background: #4B4B50;
+}
+body.account main aside div.aside-nav-bar::after {
+  content: " ";
+  display: block;
+  margin-left: 90px;
+  margin-top: -31px;
+  box-shadow: 10px 10px 100px 43px rgba(175, 227, 196, 0.48);
+}
+body.account main aside div.aside-nav-bar::before {
+  content: " ";
+  position: relative;
+  display: block;
+  top: 563px;
+  left: 57px;
+  box-shadow: 10px 10px 100px 45px rgba(175, 227, 196, 0.48);
+}
+body.account main aside div.aside-nav-bar .menu-items {
+  display: flex;
+  flex-direction: column;
+  top: 152px;
+  position: absolute;
+  align-items: center;
+  width: 117px;
+}
+body.account main aside div.aside-nav-bar .menu-item {
+  width: 100%;
+  padding: 0px 10px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 55px;
+}
+body.account main aside div.aside-nav-bar .font-side > a {
+  font-size: 12px;
+}
+body.account main aside div.aside-nav-bar .active {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: 204px;
+  background-color: #4B4B50;
+  color: #0CFF6D;
+  right: 63px;
+  border-radius: 100%;
+  z-index: 1;
+  padding-top: 15px;
+  text-align: center;
+}
+body.account main aside div.aside-nav-bar .active svg {
+  margin-top: -3px;
+}
+body.account main aside div.aside-nav-bar .active svg path {
+  fill: #0CFF6D;
+}
+body.account main aside div.aside-nav-bar .active p {
+  display: none;
+}
+body.account main aside div.aside-nav-bar .desing-nav-1 {
+  position: relative;
+  top: 263px;
+  right: 38px;
+  box-shadow: 10px 10px 100px 0px rgba(175, 227, 196, 0.48);
+  border-radius: 45px;
+}
+body.account main aside div.aside-nav-bar .select-item {
+  position: relative;
+  top: 263px;
+  right: 53px;
+  box-shadow: 10px 10px 100px 0px rgba(175, 227, 196, 0.48);
+  border-radius: 45px;
+}
+body.account main .content .main-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body.account main .content .main-row > .col-md-3 {
+  width: 21%;
+}
+body.account main .content .main-row > .col-md-3 .item-main {
+  width: 165px;
+  height: 97px;
+  margin-top: 145px;
+  margin-right: 69px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 2.5px solid #296F45;
+}
+body.account main .content .main-row > .col-md-3 .item-main::after {
+  content: "";
+  width: 147px;
+  height: 97px;
+  display: block;
+  position: relative;
+  z-index: -1;
+  margin-right: 69px;
+  border-radius: 20px;
+  background: rgba(179, 239, 203, 0.35);
+  top: -158px;
+  left: 85px;
+}
+body.account main .content .main-row > .col-md-3 .item-main h4 {
+  color: rgba(29, 29, 30, 0.92);
+  text-align: right;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+body.account main .content .main-row > .col-md-3 .item-main > p:nth-of-type(1) {
+  color: rgba(0, 0, 0, 0.65);
+  text-align: right;
+  font-size: 18px;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+body.account main .content .main-row > .col-md-3 .item-main > p:nth-of-type(2) {
+  color: #38AF3C;
+  text-align: right;
+  position: relative;
+  font-size: 18px;
+  top: -13px;
+  right: 10px;
+}
+body.account main .content .main-row > .col-md-3 .item-main svg {
+  position: relative;
+  position: relative;
+  top: -112px;
+  right: 133px;
+}
+body.account main .content .main-row > .col-md-3 .RED-style {
+  border: 2.5px solid #CB0808;
+}
+body.account main .content .main-row > .col-md-3 .RED-style::after {
+  border-radius: 20px;
+  background: rgba(239, 179, 190, 0.35);
+}
+body.account main .content .main-row > .col-md-3 .RED-style > p:nth-of-type(2) {
+  color: #EE1D1D;
+}
+body.account main .content .main-row > .col-md-3 .RED-style svg {
+  transform: rotate(180deg);
+}
+body.account main .content .main-row > .col-md-3 .RED-style svg path {
+  fill: #EE1D1D;
+}
+body.account main .content .main-row > .col-md-3 .RED-style + svg path {
+  fill: #EE1D1D;
+}
+body.account main .content .main-row > .col-md-3 svg {
+  position: relative;
+  right: 233px;
+  top: -20px;
+}
+body.account main .info_account {
+  margin-top: 50px;
+  margin-right: 50px;
+  display: flex;
+}
+body.account main .info_account .box_1 .info_user {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  margin-right: -25%;
+}
+body.account main .info_account .box_1 .info_user .avatar > svg:first-child {
+  position: relative;
+  z-index: 1;
+}
+body.account main .info_account .box_1 .info_user .avatar > svg:last-child {
+  position: relative;
+  left: 72px;
+}
+body.account main .info_account .box_1 .info_user .name_user {
+  margin-right: -55px;
+}
+body.account main .info_account .box_1 .info_user .name_user h3 {
+  color: #434345;
+  font-size: 20px;
+  line-height: normal;
+}
+body.account main .info_account .box_1 .info_user .name_user p {
+  color: #434345;
+  font-size: 16px;
+  line-height: normal;
+}
+body.account main .info_account .box_1 .history_transactions {
+  padding-bottom: 30px;
+}
+body.account main .info_account .box_1 .history_transactions > svg:first-child {
+  position: relative;
+  right: 50px;
+}
+body.account main .info_account .box_1 .history_transactions > svg:nth-child(2) {
+  position: absolute;
+  z-index: 1;
+  margin: 35px -110px 0px 0px;
+}
+body.account main .info_account .box_1 .history_transactions > svg:last-child {
+  position: absolute;
+  margin-right: -90px;
+  margin-top: -10px;
+}
+body.account main .info_account .box_1 .history_info {
+  position: absolute;
+  margin: -180px 120px 0px 0px;
+}
+body.account main .info_account .box_1 .history_info h5 {
+  color: #FAFFFA;
+  font-size: 17px;
+  line-height: normal;
+}
+body.account main .info_account .box_1 .history_info p {
+  color: #BBBCBC;
+  font-size: 11px;
+  line-height: normal;
+}
+body.account main .info_account .colume_2 .box_2 {
+  padding: 15px 40px 1px 0px;
+  margin-bottom: 20px;
+}
+body.account main .info_account .colume_2 .box_2 .subscription_type h3 {
+  color: #343434;
+  text-align: right;
+  font-size: 32px;
+  line-height: normal;
+  margin: 0px;
+}
+body.account main .info_account .colume_2 .box_2 .subscription_type p {
+  color: #444;
+  text-align: right;
+  font-size: 24px;
+  line-height: normal;
+}
+body.account main .info_account .colume_2 .box_2 .subscription_type p span:first-child {
+  color: #444;
+  font-size: 32px;
+  line-height: normal;
+}
+body.account main .info_account .colume_2 .box_2 .subscription_type p span:last-child {
+  color: #1BDE51;
+  font-size: 32px;
+  line-height: normal;
+}
+body.account main .info_account .colume_2 .box_3 {
+  text-align: center;
+}
+body.account main .info_account .colume_2 .box_3 h3 {
+  color: #3D4342;
+  font-size: 36px;
+  font-family: inherit;
+  line-height: normal;
+  margin: 0 auto;
+  margin-bottom: -81px;
+  margin-top: 15px;
+  padding-top: 46px;
+  direction: ltr;
+}
+body.account main .info_account .colume_2 .box_3 .chart {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  height: 150px;
+}
+body.account main .info_account .colume_2 .box_3 .chart canvas {
+  position: relative;
+}
+body.account main .info_account .colume_2 .box_3 p {
+  color: #2B2C2C;
+  text-align: center;
+  font-family: "B_Koodak_Bold";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: -60px;
+}
+body.account main .info_account .colume_3 .box_4 {
+  padding: 15px 40px 1px 0px;
+  margin-bottom: 60px;
+}
+body.account main .info_account .colume_3 .box_4 > svg {
+  position: relative;
+  right: 90%;
+  top: -25px;
+}
+body.account main .info_account .colume_3 .box_4 .subscription_type {
+  margin-top: -45px;
+  margin-bottom: 25px;
+}
+body.account main .info_account .colume_3 .box_4 .subscription_type h3 {
+  color: #272727;
+  text-align: right;
+  font-size: 24px;
+  line-height: normal;
+}
+body.account main .info_account .colume_3 .box_4 .subscription_type table, body.account main .info_account .colume_3 .box_4 .subscription_type tbody, body.account main .info_account .colume_3 .box_4 .subscription_type td {
+  display: block;
+}
+body.account main .info_account .colume_3 .box_4 .subscription_type tr {
+  display: flex;
+}
+body.account main .info_account .colume_3 .box_4 .subscription_type table {
+  width: 90%;
+  text-align: center;
+}
+body.account main .info_account .colume_3 .box_4 .subscription_type table ::-webkit-scrollbar {
+  height: 5px; /* height of horizontal scrollbar ← You're missing this */
+}
+body.account main .info_account .colume_3 .box_4 .subscription_type table ::-webkit-scrollbar-thumb {
+  background: rgb(155, 248, 182);
+  border-radius: 10px;
+}
+body.account main .info_account .colume_3 .box_4 .subscription_type table tbody {
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+}
+body.account main .info_account .colume_3 .box_4 .subscription_type table tbody tr {
+  scrollbar-width: 5px;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
+  overflow-x: scroll;
+}
+body.account main .info_account .colume_3 .box_4 .subscription_type table tbody tr td {
+  width: fit-content;
+  color: #323337;
+  font-family: "B_Koodak_Bold";
+  font-size: 16px;
+  line-height: normal;
+  border: solid 1px #C3F1DB;
+  padding: 10px;
+  word-break: keep-all;
+}
+body.account main .info_account .colume_3 .box_5 {
+  padding: 15px 40px 1px 0px;
+}
+body.account main .info_account .colume_3 .box_5 > svg {
+  position: relative;
+  right: 90%;
+  top: -25px;
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type {
+  margin-top: -45px;
+  margin-bottom: 25px;
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type h3 {
+  color: #272727;
+  text-align: right;
+  font-size: 24px;
+  line-height: normal;
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type table, body.account main .info_account .colume_3 .box_5 .subscription_type tbody, body.account main .info_account .colume_3 .box_5 .subscription_type td {
+  display: block;
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type tr {
+  display: flex;
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type table {
+  width: 90%;
+  text-align: center;
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type table ::-webkit-scrollbar {
+  height: 5px; /* height of horizontal scrollbar ← You're missing this */
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type table ::-webkit-scrollbar-thumb {
+  background: rgb(155, 248, 182);
+  border-radius: 10px;
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type table tbody {
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type table tbody tr {
+  scrollbar-width: 5px;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
+  overflow-x: scroll;
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type table tbody tr td {
+  width: fit-content;
+  color: #323337;
+  font-family: "B_Koodak_Bold";
+  font-size: 16px;
+  line-height: normal;
+  border: solid 1px #C3F1DB;
+  padding: 10px;
+  word-break: keep-all;
+}
+body.account main .info_account .colume_3 .box_5 .subscription_type td.td-box5 {
+  font-size: 12px;
+  padding: 4px;
 }
 
 /*# sourceMappingURL=style.css.map */

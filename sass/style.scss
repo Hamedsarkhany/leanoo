@@ -21,8 +21,6 @@ h1,h2,h3,h4,h5,h6,p{
 a {
     @extend%a;
 }
-
-
 li {
     list-style: none;
     font-family: 'B_Koodak_Bold';
@@ -899,11 +897,32 @@ body.Percentages {
                     }
                     // end table one Lino-basket-performance
                     .modal-xl {
-                        --bs-modal-width: 1250px;
-                        
+                        --bs-modal-width: 1250px;   
                     }
                     .modal-content {
                         background: #F8FFFC;
+                        border-radius: 20px;
+                        border: none;
+                    }
+                    .modal-header {
+                        flex-direction: column;
+                        background: #4B4B50;
+                        border-radius: 20px 20px 0 0;
+                        .modal-title {
+                            color: #0CFF6D;
+                            text-align: center;
+                            font-size: 23px;
+                            line-height: normal;
+                        }
+                        .header-prec-title {
+                            margin-top: 5px;
+                            display: flex;
+                            width: 100%;
+                            justify-content: space-evenly;
+                            .heder-prec-item {
+                                color: white;
+                            }
+                        }
                     }
                     .modal-body {
                         margin: 15px;
@@ -927,21 +946,8 @@ body.Percentages {
                                     border-left: 1px solid rgba(175, 227, 196, 0.48);
                                     background: #E4ECE4;
                                     margin-left: 0px;
-                                    width: 23%;
+                                    width: 17.5%;
                                     
-                                }
-                                @media (min-width:1350px) and (max-width:1740px) {
-                                    div.button {
-                                        width: 17.5%;
-                                        
-                                    }
-                                }
-                                @media (max-width:1349px) {
-                                    div.button {
-                                        width: 19%;
-                                        margin-right: 17px;
-                                        margin-left: 42px;
-                                    }
                                 }
                                 div.buttonnn {
                                     width: 30%;
@@ -960,7 +966,7 @@ body.Percentages {
                                 text-align: center;
                                 thead{
                                     tr {
-                                        border-radius: 20px 20px 0px 0px;
+                                        border-radius: 0px 20px 0px 0px;
                                         border-bottom: 1.8px solid #E5F6EB;
                                         background: #ffffff;
                                         align-items: center;
@@ -970,42 +976,23 @@ body.Percentages {
                                             font-size: 18px;
                                             padding-left: 5px;
                                             padding-bottom: 5px;
+                                            border: none;
+                                            font-size: 16px;
+                                            padding-top: 10px;
+                                            width: 10%;
                                             background-color: #fff;  
                                         }
                                         th:first-of-type{
-                                            color: #000;
-                                            font-family: "B_Koodak_Bold";
-                                            font-size: 16px;
-                                            padding-bottom: 5px;
-                                            width: 10%;
-                                            padding-top: 10px;
-                                            background-color: #fff; 
                                             svg {
                                                 margin-right: 5px;
                                             }
                                         }
-                                        th:nth-child(2){
-                                            color: #000;
-                                            font-family: "B_Koodak_Bold";
-                                            font-size: 16px;
-                                            padding-left: 5px;
-                                            padding-top: 10px;
-                                            padding-bottom: 5px;
-                                            width: 10%;
-                                        }
+                        
                                         th:nth-child(3){
-                                            color: #000;
-                                            font-family: "B_Koodak_Bold";
-                                            font-size: 16px;
-                                            padding-left: 5px;
-                                            padding-top: 10px;
-                                            padding-bottom: 5px;
-                                            width: 10%;
                                             margin-left: 10px;
                                         }
                                         th.thh {
                                             width: 6%;
-                                            color: #000;
                                             font-family: "B_Koodak_Bold";
                                             font-size: 15px;
                                             border-right: solid 2px #F3FFF9;
@@ -1033,7 +1020,7 @@ body.Percentages {
                                             font-family: "B_Koodak_Bold";
                                             font-size: 16px;
                                             padding-bottom: 8px;
-                                            width: 10%;
+                                            width: 10.1%;
                                             padding-top: 10px;
                                         }
                                         td:nth-child(2){
@@ -1041,24 +1028,24 @@ body.Percentages {
                                             font-family: "B_Koodak_Bold";
                                             font-size: 16px;
                                             padding: 10px 0px 8px 5px;
-                                            width: 10%;
+                                            width: 10.1%;
                                         }
                                         td:nth-child(3){
                                             color: #000;
                                             font-family: "B_Koodak_Bold";
                                             font-size: 16px;
                                             padding: 10px 0px 8px 5px;
-                                            width: 10%;
+                                            width: 10.1%;
                                         }
                                         td.tdd-green {
                                             @extend%cell-green;
-                                            padding: 8px 5px 8px 5px;
-                                            width: 6%;
+                                            padding: 8px 5px 9px 5px;
+                                            width: 5.9%;
                                         }
                                         td.tdd-red {
                                             @extend%cell-red;
-                                            padding: 8px 5px 8px 5px;
-                                            width: 6%;
+                                            padding: 8px 5px 9px 5px;
+                                            width: 5.9%;
                                         } 
                                         
                                     }
@@ -1130,3 +1117,337 @@ body.Percentages {
     }
 }
 // end style for for Percentages.html
+
+// start style for for login.html 
+
+
+body.login {
+    ::placeholder {
+        color: rgb(255, 255, 255);
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color: rgb(255, 255, 255);
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+       color: rgb(255, 255, 255);
+      }
+ background-color: rgb(240, 255, 237);
+   .box_login {
+    margin: 6% auto;
+    width: 500px;
+    height: 520px;
+    border-radius: 30px;
+    border: 3px solid #FFF;
+    background: linear-gradient(139deg, rgba(134, 165, 123, 1.44) -10%, rgba(108, 152, 144, 0.46) 34.90%, rgba(62, 106, 124, 0.55) 67.19%, rgba(20, 27, 18, 0.70) 100%);
+        .svg_1 {
+            position: relative;
+            right: 38%;
+            top: -57px;
+        }
+        }
+        .svg_2 {
+            position: relative;
+            z-index: 1;
+            right: 17.2%;
+            top: -60px;
+        }
+   }
+   .form_login {
+
+    form {
+        margin: 0 auto;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        flex-wrap: wrap;
+        label:nth-child(1) {
+            background: rgba(217, 217, 217, 0.47);
+            border-radius: 0px 20px 20px 0px;
+            width: 60px;
+            height: 60px;
+            padding: 15px 16px;
+        }
+        input[type="tel"] {
+            font-family: "B_Koodak_Bold";
+            color: #FFF;
+            font-size: 18px;
+            margin-bottom: 36px;
+            padding: 16.5px 12px;
+            width: 82%;
+            border: none;
+            border-radius: 20px 0px 0px 20px;
+            background: rgba(255, 255, 255, 0.28);
+           
+        }
+        input[type="password"] {
+            font-family: "B_Koodak_Bold";
+            color: #FFF;
+            font-size: 18px;
+            padding: 16px 12px;
+            width: 82%;
+            border: none;
+            border-radius: 20px 0px 0px 20px;
+            background: rgba(255, 255, 255, 0.28);
+        }
+        input[type="button"] {
+            margin-bottom: 36px;
+            padding: 5px 0px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.82);
+            color: #21301F;
+            font-family: "B_Koodak_Bold";
+            border: none;
+            font-size: 32px;
+            width: 100%;
+            transition: all 0.3s ease-out;
+            &:hover {
+                transition: all 0.3s ease-out;
+                background: rgba(255, 255, 255, 0.3);
+            }
+        }
+        label:nth-child(4) {
+            background: rgba(217, 217, 217, 0.47);
+            border-radius: 0px 20px 20px 0px;
+            width: 60px;
+            height: 60px;
+            padding: 9px 13px;
+        }
+        p {
+            margin: 11px auto 40px auto;
+            a {
+                font-size: 16px;
+                color: var(--1, #E0EEFF);
+            }
+            
+        }
+    }
+
+
+}
+
+
+
+// start style for account.html
+
+body.account {
+
+    // header style
+   @include header;
+    // end heder style
+
+    // start main style page
+    main {
+        // style sidebar and nav bar
+        @include side-bar;
+        // end sider bar contolor style
+
+
+
+        @include content; // box infomation
+
+        
+        .info_account {
+            margin-top: 50px;
+            margin-right: 50px;
+            display: flex;
+
+            .box_1 {
+                @extend%box_account;
+                .info_user {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 30px;
+                    margin-bottom: 30px;
+                    margin-right: -25%;
+
+                    .avatar {
+
+                        >svg:first-child {
+                            position: relative;
+                            z-index: 1;
+                        }
+                        >svg:last-child {
+                            position: relative;
+                            left: 72px;
+                            
+                        }
+                    }
+                    .name_user {
+                        margin-right: -55px;
+
+                        h3 {
+                            color: #434345;
+                            font-size: 20px;
+                            line-height: normal;
+                        }
+                        p {
+                            color: #434345;
+                            font-size: 16px;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .history_transactions {
+                    padding-bottom: 30px;
+
+                    >svg:first-child {
+                        position: relative;
+                        right: 50px;
+                    }
+                    >svg:nth-child(2) {
+                        position: absolute;
+                        z-index: 1;
+                        margin: 35px -110px 0px 0px;
+                    }
+                    >svg:last-child {
+                            position: absolute;
+                            margin-right: -90px;
+                            margin-top: -10px;
+                    }
+                }
+                .history_info {
+                    position: absolute;
+                    margin: -180px 120px 0px 0px;
+
+                    h5 {
+                        color: #FAFFFA;
+                        font-size: 17px;
+                        line-height: normal;
+                    }
+                    p {
+                        color: #BBBCBC;
+                        font-size: 11px;
+                        line-height: normal;
+                    }
+                }
+            }
+            .colume_2 {
+
+                .box_2 {
+                    @extend%box_account;
+                    padding: 15px 40px 1px 0px;
+                    margin-bottom: 20px;
+                    .subscription_type {
+                        h3 {
+                            color: #343434;
+                            text-align: right;
+                            font-size: 32px;
+                            line-height: normal;
+                            margin: 0px;
+                        }
+                        p {
+                            color: #444;
+                            text-align: right;
+                            font-size: 24px;
+                            line-height: normal;
+                            span:first-child {
+                                color: #444;
+                                font-size: 32px;
+                                line-height: normal;
+                            }
+                            span:last-child {
+                                color: #1BDE51;
+                                font-size: 32px;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+                .box_3 {
+                    @extend%box_account;
+                    text-align: center;
+                    h3 {
+                        color: #3D4342;
+                        font-size: 36px;
+                        font-family: inherit;
+                        line-height: normal;
+                        margin: 0 auto;
+                        margin-bottom: -81px;
+                        margin-top: 15px;
+                        padding-top: 46px;
+                        direction: ltr;
+                    }
+                    .chart {
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+                        height: 150px;
+                        canvas {
+                            position: relative;
+                        }
+                    }
+                    p {
+                        color: #2B2C2C;
+                        text-align: center;
+                        font-family: "B_Koodak_Bold";
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        position: relative;
+                        top: -60px;
+                    }
+                }
+            }
+            .colume_3 {
+
+                .box_4 {
+                    >svg {
+                        position: relative;
+                        right: 90%;
+                        top: -25px;
+                    }
+                    @extend%box_account;
+                    padding: 15px 40px 1px 0px;
+                    margin-bottom: 60px;
+                    .subscription_type {
+                        margin-top: -45px;
+                        margin-bottom: 25px;
+
+                        h3 {
+                            color: #272727;
+                            text-align: right;
+                            font-size: 24px;
+                            line-height: normal;
+                        }
+                       @include table_account;
+                    }
+                }
+
+
+                .box_5 {
+                    >svg {
+                        position: relative;
+                        right: 90%;
+                        top: -25px;
+                    }
+                    
+                    @extend%box_account;
+                    padding: 15px 40px 1px 0px;
+
+                    .subscription_type {
+                        margin-top: -45px;
+                        margin-bottom: 25px;
+
+                        h3 {
+                            color: #272727;
+                            text-align: right;
+                            font-size: 24px;
+                            line-height: normal;
+                        }
+                        @include table_account;
+                        
+                        td.td-box5{
+                            font-size: 12px;
+                            padding: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -262,3 +262,51 @@
         }
     }
 }
+
+
+
+
+@mixin table_account {
+    table, tbody, td {
+        display: block;
+    }
+    tr {
+        display: flex;
+    }
+    table {
+        width: 90%;
+        text-align: center;
+        ::-webkit-scrollbar {
+            height: 5px;              /* height of horizontal scrollbar ← You're missing this */
+          }
+          ::-webkit-scrollbar-thumb {
+            background: rgb(155, 248, 182); 
+            border-radius: 10px;
+          }
+        tbody {
+           
+            border-radius: 10px;
+            background-color: white;
+            width: 100%;
+            
+            tr {
+                scrollbar-width: 5px;
+                border-radius: 10px;
+                align-items: center;
+                width: 100%;
+                overflow-x: scroll;
+                td{
+                    width: fit-content;
+                    color: #323337;
+                    font-family: "B_Koodak_Bold";
+                    font-size: 16px;
+                    line-height: normal;
+                    border: solid 1px #C3F1DB;
+                    // border-bottom: solid 1px #C3F1DB;
+                    padding: 10px; 
+                    word-break: keep-all; 
+                }
+            }
+        }        
+    }  
+}

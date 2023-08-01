@@ -60,7 +60,21 @@ function button_table(button) {
 } 
 
 
+//////////////// chart account
+$(function () {
+  $('.chart').easyPieChart({
+    size:170,
+    barColor:"#4EFF5F",
+    scaleLength:0,
+    lineWidth: 5,
+    trackColor:"#58697c7d",
+    lineCap:"circal",
+    animate:2000,
+  })
+  
+})
 
+/////////////
 
 var isSearchBoxVisible = false;
 var searchBox = document.getElementById("searchbox");
@@ -72,7 +86,7 @@ function toggleSearchBox() {
 }
 
 function showSearchBox(show=true){
-   searchBox.style.display = show ? 'block' : 'none'; 
+   searchBox.style.display = show ? '' : 'none'; 
    isSearchBoxVisible = show;
 }
 
@@ -107,3 +121,5 @@ var myInput = document.getElementById('myInput')
 myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
+
+

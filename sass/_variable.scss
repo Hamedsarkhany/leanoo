@@ -60,6 +60,11 @@ $width: 1378px;
     }
 }
 
-
+%box_account {
+    width: 85%;
+    border-radius: 40px;
+    background: linear-gradient(180deg, rgba(178, 204, 168, 0.15) 0%, rgba(72, 160, 41, 0.15) 0.01%, rgba(60, 173, 221, 0.14) 100%);
+    min-width: 270px;
+}
 
 
